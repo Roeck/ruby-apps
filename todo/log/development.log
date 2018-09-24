@@ -1,0 +1,185 @@
+
+
+Started GET "/" for ::1 at 2018-05-28 02:30:55 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ListsController#index as HTML
+  [1m[35mList Load (0.3ms)[0m  SELECT "lists".* FROM "lists"
+  Rendered lists/index.html.erb within layouts/application (4.6ms)
+  Rendered lists/_form_index.html.erb (26.5ms)
+  Rendered lists/_navbar.html.erb (32.9ms)
+  Rendered lists/_flash.html.erb (2.8ms)
+Completed 200 OK in 692ms (Views: 666.8ms | ActiveRecord: 1.1ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for ::1 at 2018-06-06 18:50:04 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ListsController#index as HTML
+  [1m[35mList Load (0.5ms)[0m  SELECT "lists".* FROM "lists"
+  Rendered lists/index.html.erb within layouts/application (4.7ms)
+  Rendered lists/_form_index.html.erb (17.8ms)
+  Rendered lists/_navbar.html.erb (22.5ms)
+  Rendered lists/_flash.html.erb (0.7ms)
+Completed 200 OK in 12022ms (Views: 11987.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for ::1 at 2018-06-06 18:50:17 -0400
+Processing by ListsController#index as HTML
+  [1m[36mList Load (0.3ms)[0m  [1mSELECT "lists".* FROM "lists"[0m
+  Rendered lists/index.html.erb within layouts/application (1.8ms)
+  Rendered lists/_form_index.html.erb (1.6ms)
+  Rendered lists/_navbar.html.erb (5.7ms)
+  Rendered lists/_flash.html.erb (0.2ms)
+Completed 200 OK in 141ms (Views: 138.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.self-5f59511ba1fee51483b76d8587488961e758f4e9ae0e1c63fe66f9b1b0b53a47.css?body=1" for ::1 at 2018-06-06 18:50:17 -0400
+
+
+Started GET "/assets/jquery3.self-5af507e253c37e9c9dcf65064fc3f93795e6e28012780579975a4d709f4074ad.js?body=1" for ::1 at 2018-06-06 18:50:17 -0400
+
+
+Started GET "/assets/popper.self-b5d0395dd499f58f910fee32e5221f71c3b8e6f3229879a7b76d481c5446de10.js?body=1" for ::1 at 2018-06-06 18:50:17 -0400
+
+
+Started GET "/assets/bootstrap/collapse.self-1b9366a3e2b2f40707b57f3109ebac282727a1c0d9c3c0492ce86c26d905b9da.js?body=1" for ::1 at 2018-06-06 18:50:17 -0400
+
+
+Started GET "/assets/bootstrap/carousel.self-cf42778b03424d409ddb78640bb65816fa1675e69c6133cac2abb517ca173328.js?body=1" for ::1 at 2018-06-06 18:50:17 -0400
+
+
+Started GET "/assets/bootstrap/util.self-45f0828cb0ecf093daff5cd832e8e7242240ba50e06e7dbb5e73f982a38510f4.js?body=1" for ::1 at 2018-06-06 18:50:17 -0400
+
+
+Started GET "/assets/bootstrap/tooltip.self-e337d16e038213f0dae48fdae1867c9c55a8b8dde6d0a9a8b6c868a83b3e6d09.js?body=1" for ::1 at 2018-06-06 18:50:17 -0400
+
+
+Started GET "/assets/bootstrap/tab.self-7d8bc44f45ea4f860d04caf19caea80f6c99622056a0dbc6660bc910b33c309a.js?body=1" for ::1 at 2018-06-06 18:50:17 -0400
+
+
+Started GET "/assets/bootstrap/scrollspy.self-fa0c939fb5ed4b4134926f8c78489ec33da47239b96f7ddaea3257623ec7293f.js?body=1" for ::1 at 2018-06-06 18:50:17 -0400
+
+
+Started GET "/assets/bootstrap/modal.self-e7801fc794f9782b99abc817c89f72d6b0b8901241e7669636e4c81d4b884ab0.js?body=1" for ::1 at 2018-06-06 18:50:17 -0400
+
+
+Started GET "/assets/bootstrap/popover.self-cd39a55327cb02f89e68eafcb9ec332e96ad04388bba5a874669be13f01f7649.js?body=1" for ::1 at 2018-06-06 18:50:17 -0400
+
+
+Started GET "/assets/bootstrap/dropdown.self-513b9c1b595ded47afc66781caee1f87f0976be2a5480326c2bd950a9c7c75b3.js?body=1" for ::1 at 2018-06-06 18:50:17 -0400
+
+
+Started GET "/assets/bootstrap/alert.self-33c50a933f5256b5562bdb6898b38fb1e6a092c6967182b7c2927d4f156c9e64.js?body=1" for ::1 at 2018-06-06 18:50:17 -0400
+
+
+Started GET "/assets/bootstrap-sprockets.self-636159b35205da4142a43bc02d2849d77d3ac07a0946211585cde15a9c6ff21f.js?body=1" for ::1 at 2018-06-06 18:50:17 -0400
+
+
+Started GET "/assets/bootstrap/button.self-b477bd2fb3ac56ebbdde34f29ee5ad0470a028984f6c8358ba28ad686d6ab044.js?body=1" for ::1 at 2018-06-06 18:50:17 -0400
+
+
+Started GET "/assets/lists.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2018-06-06 18:50:17 -0400
+
+
+Started POST "/lists" for ::1 at 2018-06-06 18:50:52 -0400
+Processing by ListsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"shhHgCWwIs0jdKFuz+RrKqyPSwsJJYKXTCubMNFiFDIkLq6laIWQRcLG2+sCmyQgRzXdv6vkXWJnIhj+CjRPrg==", "list"=>{"description"=>"Workout"}, "commit"=>"Add Item"}
+  [1m[35m (14.3ms)[0m  begin transaction
+  [1m[36mSQL (4.7ms)[0m  [1mINSERT INTO "lists" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Workout"], ["created_at", "2018-06-06 22:50:53.142543"], ["updated_at", "2018-06-06 22:50:53.142543"]]
+  [1m[35m (1.4ms)[0m  commit transaction
+Redirected to http://localhost:3000/lists
+Completed 302 Found in 154ms (ActiveRecord: 20.5ms)
+
+
+Started GET "/lists" for ::1 at 2018-06-06 18:50:53 -0400
+Processing by ListsController#index as HTML
+  [1m[36mList Load (0.3ms)[0m  [1mSELECT "lists".* FROM "lists"[0m
+  Rendered lists/index.html.erb within layouts/application (19.5ms)
+  Rendered lists/_form_index.html.erb (5.2ms)
+  Rendered lists/_navbar.html.erb (12.4ms)
+  Rendered lists/_flash.html.erb (2.1ms)
+Completed 200 OK in 342ms (Views: 339.7ms | ActiveRecord: 0.3ms)
+
+
+Started PATCH "/lists/30" for ::1 at 2018-06-06 18:50:54 -0400
+Processing by ListsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KjLSCu6tbwXc20i9ApzcijwLcFHx8zhmHT21t9NEFrq8BDsvo5jdjT1pMjjP45OA17Hm5VMy55M2NDZ5CBJNJg==", "list"=>{"description"=>"Workout", "completed"=>"1"}, "commit"=>"Check", "id"=>"30"}
+  [1m[35mList Load (0.3ms)[0m  SELECT  "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT 1  [["id", 30]]
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  UPDATE "lists" SET "completed" = ?, "updated_at" = ? WHERE "lists"."id" = ?  [["completed", "t"], ["updated_at", "2018-06-06 22:50:55.029789"], ["id", 30]]
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/lists
+Completed 302 Found in 120ms (ActiveRecord: 2.3ms)
+
+
+Started GET "/lists" for ::1 at 2018-06-06 18:50:55 -0400
+Processing by ListsController#index as HTML
+  [1m[35mList Load (0.3ms)[0m  SELECT "lists".* FROM "lists"
+  Rendered lists/index.html.erb within layouts/application (3.4ms)
+  Rendered lists/_form_index.html.erb (1.4ms)
+  Rendered lists/_navbar.html.erb (4.0ms)
+  Rendered lists/_flash.html.erb (0.5ms)
+Completed 200 OK in 180ms (Views: 178.9ms | ActiveRecord: 0.3ms)
+
+
+Started PATCH "/lists/30" for ::1 at 2018-06-06 18:50:56 -0400
+Processing by ListsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O4Wu4JK04B1UkkNYzi1RY3lN1aTC4N0hRPnD8Qfs+k+ts0fF34FSlbUgOd0DUh5pkvdDEGAhAtRv8EA/3Lqh0w==", "list"=>{"description"=>"Workout", "completed"=>"0"}, "commit"=>"Uncheck", "id"=>"30"}
+  [1m[36mList Load (0.1ms)[0m  [1mSELECT  "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT 1[0m  [["id", 30]]
+  [1m[35m (0.6ms)[0m  begin transaction
+  [1m[36mSQL (0.9ms)[0m  [1mUPDATE "lists" SET "completed" = ?, "updated_at" = ? WHERE "lists"."id" = ?[0m  [["completed", "f"], ["updated_at", "2018-06-06 22:50:56.100679"], ["id", 30]]
+  [1m[35m (1.6ms)[0m  commit transaction
+Redirected to http://localhost:3000/lists
+Completed 302 Found in 11ms (ActiveRecord: 3.2ms)
+
+
+Started GET "/lists" for ::1 at 2018-06-06 18:50:56 -0400
+Processing by ListsController#index as HTML
+  [1m[36mList Load (1.3ms)[0m  [1mSELECT "lists".* FROM "lists"[0m
+  Rendered lists/index.html.erb within layouts/application (10.2ms)
+  Rendered lists/_form_index.html.erb (3.1ms)
+  Rendered lists/_navbar.html.erb (10.3ms)
+  Rendered lists/_flash.html.erb (0.1ms)
+Completed 200 OK in 352ms (Views: 348.6ms | ActiveRecord: 1.3ms)
+
+
+Started PATCH "/lists/30" for ::1 at 2018-06-06 18:50:57 -0400
+Processing by ListsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rR9uUhjYv6cbamqo9o//JfsUxNVMKBOytGfDNEB780w7KYd3Ve0NL/rYEC078LAvEK5SYe7pzEefbkD6my2o0A==", "list"=>{"description"=>"Workout", "completed"=>"1"}, "commit"=>"Check", "id"=>"30"}
+  [1m[35mList Load (0.2ms)[0m  SELECT  "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT 1  [["id", 30]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "lists" SET "completed" = ?, "updated_at" = ? WHERE "lists"."id" = ?  [["completed", "t"], ["updated_at", "2018-06-06 22:50:57.729623"], ["id", 30]]
+  [1m[36m (1.5ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/lists
+Completed 302 Found in 7ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/lists" for ::1 at 2018-06-06 18:50:57 -0400
+Processing by ListsController#index as HTML
+  [1m[35mList Load (0.3ms)[0m  SELECT "lists".* FROM "lists"
+  Rendered lists/index.html.erb within layouts/application (3.8ms)
+  Rendered lists/_form_index.html.erb (1.2ms)
+  Rendered lists/_navbar.html.erb (5.7ms)
+  Rendered lists/_flash.html.erb (0.1ms)
+Completed 200 OK in 103ms (Views: 101.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/home/trash_all_marked" for ::1 at 2018-06-06 18:51:03 -0400
+Processing by HomeController#trash_all_marked as HTML
+  [1m[36mList Load (1.6ms)[0m  [1mSELECT "lists".* FROM "lists" WHERE "lists"."completed" = ?[0m  [["completed", "t"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.7ms)[0m  [1mDELETE FROM "lists" WHERE "lists"."id" = ?[0m  [["id", 30]]
+  [1m[35m (2.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/lists
+Completed 302 Found in 14ms (ActiveRecord: 4.4ms)
+
+
+Started GET "/lists" for ::1 at 2018-06-06 18:51:03 -0400
+Processing by ListsController#index as HTML
+  [1m[36mList Load (0.4ms)[0m  [1mSELECT "lists".* FROM "lists"[0m
+  Rendered lists/index.html.erb within layouts/application (1.6ms)
+  Rendered lists/_form_index.html.erb (1.2ms)
+  Rendered lists/_navbar.html.erb (7.1ms)
+  Rendered lists/_flash.html.erb (0.2ms)
+Completed 200 OK in 131ms (Views: 129.4ms | ActiveRecord: 0.4ms)

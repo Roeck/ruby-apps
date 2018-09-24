@@ -1,0 +1,52 @@
+@import 'bootstrap';
+
+
+
+.striker{
+  text-decoration: line-through;
+  background:#1AAB8A;
+  color:#ffffff;
+  border:none;
+  position:relative;
+  height:60px;
+  font-size:1.2em;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+  text-color: black;
+}
+.striker:hover{
+  background:#ffffff;
+  color:#ffffff;
+}
+.striker:before,.striker:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #000000;
+  transition:400ms ease all;
+}
+.striker:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+.striker:hover:before,.striker:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+
+
+
+.font {
+	font-family: 'New Rocker', cursive;
+
+	}
+
+
+  
